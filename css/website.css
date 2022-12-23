@@ -1,0 +1,180 @@
+/* CSS rules for anything other than the selectors in layout.css file
+img, p, h1-h6, ul, ol, a  etc*/
+p,li,a,span,figcaption{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#logo{
+    height: 70px;
+    width: 70px;
+}
+#name{
+    text-decoration: none;
+    color: #f6836b;
+    font-weight: 800;
+    font-size: 1.5em;
+    text-align: left;
+    margin: 10px;
+}
+#welcome{
+    background-color: white;
+    margin-bottom: 70px;
+}
+section h2{
+    display: flex;
+    justify-content: center;
+    color: black;
+    font-size: 2.2em;
+    font-weight: 800;
+    margin-bottom: 30px;
+}
+#welcome span{
+    display: inline-block;
+    color: #F0544F;
+    font-size: 1.7em;
+    font-weight: 600;
+}
+#welcome h3{
+    font-size: 2em;
+    font-weight: 700;
+    letter-spacing:  1px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+#welcome button{
+    background-color: #F0544F;
+    text-decoration: none;
+    color: white;
+    font-size: 1.1em;
+    font-weight: 600;
+    display: inline-block;
+    padding: 0.9375em 2.1875em;
+    letter-spacing: 1px;
+    border-radius: 13px;
+    margin-bottom: 14px;
+    transition: 0.7s ease;
+}
+#welcome button:hover{
+    transform: scale(1.1);
+}
+#welcome img{
+    max-width: 100%;
+    position: relative;
+    bottom: 60px;
+    float: right;
+    margin-left: 20px;
+    height: 30em;
+    width: 30em;
+    order: 2;
+}
+#welcome a{
+    color: #784078;
+    text-decoration: none;
+    padding: 25px;
+    font-size: 1.3em;
+    font-weight: 750;
+}
+#welcome a:hover{
+    color:  #F0544F;
+}
+#about{
+    background-color: aliceblue;
+}
+#about span{
+    display: inline-block;
+    color: #F0544F;
+    font-size: 1.7em;
+    font-weight: 600;
+}
+#about p{
+    font-size: 1.2em;
+    padding-left: 50px;
+    text-align: justify;
+}
+#servicies {
+    display: flex;
+    overflow: scroll;
+}
+#servicies h2{
+    display: block;
+    text-align: center;
+}   
+#servicies figure{
+    display: table;
+    text-align: center;
+    transition: 0.7s ease;
+    margin: 35px;
+    margin-top: 100px;
+}
+#servicies figure:hover{
+    transform: scale(1.1);
+}
+#servicies figure img{
+    width: 250px;
+    height: 250px;
+}
+#servicies figure figcaption{
+    color: #784078;
+    font-size: 1.7em;
+    font-weight: 600;
+    display: table-caption;
+    caption-side: bottom;
+}
+#photos{
+    background-color: aliceblue;
+}
+#photos img{
+    width: 700px;
+    height: 700px;
+}
+#photos img:hover{
+    transform: scale(1.1);
+}
+#photos span{
+    color: #784078;
+    font-size: 1.7em;
+    font-weight: 600;
+    text-align: center;
+}
+#courses{
+    background-color: aliceblue;
+}
+#projects{
+    background-color: aliceblue;
+}
+#hobies{
+    background-color: aliceblue;
+    display: flex;
+    overflow: scroll;
+}
+#hobies img{
+    display: table;
+    text-align: center;
+    margin-left: 70px;
+    transition: 0.7s ease;
+    width: 200px;
+    height: 200px;
+}
+#hobies img:hover{
+    transform: scale(1.1);
+}
+#contact{
+    background-color: #C6D8D3;
+}
+ul {
+    list-style-image: url('../images/checked.png');
+}
+ul ul{
+    list-style-image: url('../images/check.png');
+}
+a[href^="mailto:"]::before{
+    content:url('../images/mail.png');
+}
+a[href^="tel:"]::before{
+    content:url('../images/tel.png');
+}
+footer a img{
+    float: right;
+    padding: 20px;
+    height: 50px;
+    width: 50px;
+}

@@ -1,4 +1,4 @@
-# Student_Training_CSS
+# Student Training Styling:
 In this assignment I create CSS for the Student Training project. It is part of my course Web Application and Technologies assignments!
 
 This is a preview of my work:
